@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 
 public class MainElementsDisplayedScenario {
 	
-	private static final Logger logger = LogManager.getLogger(MainElementsDisplayedScenario.class);
+	private static final Logger logger = LogManager.getLogger(MainElementsDisplayedScenario.class.getSimpleName());
 	
 	@Given("I launch Chrome browser")
 	public void i_launch_Chrome_browser() {
